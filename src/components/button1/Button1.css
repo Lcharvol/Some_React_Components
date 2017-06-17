@@ -1,0 +1,55 @@
+.Button1{
+  position:relative;
+  margin: auto;
+  margin-top:25px;
+  width:300px;
+}
+
+.Button1:hover{
+  cursor:pointer;
+}
+
+.Button1:active .button1_elem{
+  top:10px;
+  left:-10px;
+}
+
+.button1_elem
+{
+  position: relative;
+  width: 200px;
+  height:70px;
+  background-color:rgb(243,243,243);
+  border: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: #e74c3c;
+  text-align: center;
+  z-index:10;
+  top:0;
+  left:0;
+  transition: top 0.2s, left 0.2s;
+}
+
+.button1_elem h1
+{
+  position: relative;
+  margin:auto;
+  color:#e74c3c;
+  margin-top:15px;
+}
+
+.shadow
+{
+  position:absolute;
+  width: 200px;
+  height:70px;
+  background-color:#e74c3c;
+  border: solid;
+  border-color: #e74c3c;
+  border-width: 5px;
+  border-radius: 5px;
+  z-index:1;
+  top:10px;
+  left:-10px;
+}
