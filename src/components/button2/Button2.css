@@ -1,0 +1,42 @@
+.Button2{
+  position:relative;
+  margin: auto;
+  margin-top:25px;
+  width:300px;
+}
+
+.Button2:hover{
+  cursor:pointer;
+}
+
+.Button2:active .button2_elem{
+  top:10px;
+  left:-10px;
+}
+
+.button2_elem
+{
+  position: relative;
+  width: 200px;
+  height:70px;
+  background-color:rgb(243,243,243);
+  border: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: #e74c3c;
+  text-align: center;
+  top:0;
+  left:0;
+  transition: top 0.2s, left 0.2s;
+}
+
+.button2_elem h1
+{
+  position: relative;
+  margin:auto;
+  color:#e74c3c;
+  margin-top:15px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+}
