@@ -1,15 +1,21 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
 
+import Header from '../../components/Header';
 import Button1 from '../../components/button1';
-import Button2 from '../../components/button2';
 import Minigallery from '../../components/Mini_gallery';
 import './App.css';
 
-const App = ({ children }) =>
+const App = () =>
   <main>
-    <Button1 />
-    <Button2 />
-    <Minigallery />
+    <Header />
+    <Button1 name="Button1" />
+    <Button1 name="Button2" />
+    <Button1 name="Button3" />
+    <Button1 name="Button4" />
+    <Button1 name="Button5" />
+    <Minigallery
+      nb_elem="2"
+    />
   </main>;
 
 export default App;

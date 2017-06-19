@@ -1,8 +1,10 @@
 .Button1{
   position:relative;
+  display: inline-block;
   margin: auto;
-  margin-top:25px;
-  width:300px;
+  margin-top:35px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 
 .Button1:hover{
@@ -19,11 +21,11 @@
   position: relative;
   width: 200px;
   height:70px;
-  background-color:rgb(243,243,243);
+  background-color:white;
   border: solid;
   border-width: 5px;
   border-radius: 5px;
-  border-color: #e74c3c;
+  border-color: rgb(59,210,174);
   text-align: center;
   top:0;
   left:0;
@@ -34,7 +36,7 @@
 {
   position: relative;
   margin:auto;
-  color:#e74c3c;
+  color:rgb(59,210,174);
   margin-top:15px;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -50,8 +52,9 @@
   top:10px;
   left:-10px;
   background: #e74c3c;
-  background: -webkit-linear-gradient(right, #e74c3c , #9b59b6);
-  background: -o-linear-gradient(right, #e74c3c, #9b59b6);
-  background: -moz-linear-gradient(right, #e74c3c, #9b59b6);
-  background: linear-gradient(right, #e74c3c , #9b59b6);
+  background: rgb(243,243,243);
+  /*background: -webkit-linear-gradient(right, rgb(59,210,174) , rgb(54,186,194));
+  background: -o-linear-gradient(right, rgb(59,210,174), rgb(54,186,194));
+  background: -moz-linear-gradient(right, rgb(59,210,174), rgb(54,186,194));
+  background: linear-gradient(right, rgb(59,210,174), rgb(54,186,194));*/
 }
