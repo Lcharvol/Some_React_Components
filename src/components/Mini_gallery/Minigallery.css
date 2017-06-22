@@ -35,7 +35,6 @@
   transform: rotate(5deg);
   transition: left 1s;
   background: #e74c3c;
-  background: rgb(243,243,243);
   background: -webkit-linear-gradient(top, rgb(59,210,174) , rgb(54,186,194));
   background: -o-linear-gradient(top, rgb(59,210,174), rgb(54,186,194));
   background: -moz-linear-gradient(top, rgb(59,210,174), rgb(54,186,194));

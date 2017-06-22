@@ -1,0 +1,85 @@
+.toDoList
+{
+  position: relative;
+  width:700px;
+  background-color:none;
+  margin:auto;
+}
+.toDoListElem
+{
+  position: relative;
+  width:calc(100% - 10px);
+  height:65px;
+  border-radius: 5px;
+  background-color:rgb(243,243,243);
+  margin:5px;
+  text-align: left;
+}
+
+.to_do
+{
+  color: rgb(59,210,174);
+  display: inline-block;
+  width:200px;
+  margin-left: 25px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.checkbox
+{
+  position: relative;
+  display: inline-block;
+  width:30px;
+  height:30px;
+  background-color:none;
+  border: solid;
+  border-width:4px;
+  border-color:rgb(59,210,174);
+  top: 14px;
+  margin-left:14px;
+  margin-right:16px;
+  border-radius: 5px;
+}
+.checkbox:hover{
+  cursor: pointer;
+  border-color:rgb(69,240,174);
+}
+
+.since
+{
+  color: rgb(59,210,174);
+  display: inline-block;
+  width:150px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.fore
+{
+  color: rgb(59,210,174);
+  display: inline-block;
+  margin-left: 25px;
+  width:150px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.check
+{
+  color: rgb(59,210,174);
+  position: absolute;
+  top:6px;
+  left:7px;
+}
+.red
+{
+  background-color:red;
+}

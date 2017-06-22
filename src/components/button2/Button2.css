@@ -4,8 +4,12 @@
   margin: auto;
   height: 100%;
   width:200px;
-  background-color: rgba(25,25,25,0.1);
   text-align: center;
+  background: #e74c3c;
+  background: -webkit-linear-gradient(top, rgba(59,210,174, 0.2) , rgba(54,186,194, 0.2));
+  background: -o-linear-gradient(top, rgba(59,210,174, 0.2), rgba(54,186,194, 0.2));
+  background: -moz-linear-gradient(top, rgba(59,210,174, 0.2), rgba(54,186,194, 0.2));
+  background: linear-gradient(top, rgba(59,210,174, 0.2), rgba(54,186,194, 0.2));
 }
 
 .Button2:hover{
@@ -18,7 +22,7 @@
   position: relative;
   margin:auto;
   color:rgb(59,210,174);
-  margin-top:15px;
+  margin-top:10px;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
